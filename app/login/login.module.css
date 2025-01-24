@@ -2,7 +2,7 @@
 .container {
   /* 变量定义 */
   --primary-color: #3B82F6;
-  --primary-gradient: radial-gradient(circle, #3B82F6 15%, #302f2f 100%);
+  --primary-gradient: radial-gradient(circle, rgb(181 203 229) 15%, rgb(224 248 255) 100%);
   --card-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   --input-border: 2px solid var(--primary-color);
 
@@ -39,9 +39,9 @@
   min-height: 320px;
   max-height: 410px;
   border-radius: 40px;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #ffffffb3;
+  box-shadow: 0 4px 30px rgb(128 128 128 / 40%)
+/*   border: 1px solid rgba(255, 255, 255, 0.3); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@
 
 .input:focus {
   outline: none;
-  border: 3px solid rgba(59,130,246,1);
+/*   border: 3px solid rgba(59,130,246,1); */
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -130,11 +130,11 @@
 /* 登录按钮悬停效果 */
 .button:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(128, 128, 128, 0.8);
 }
 
 .button:disabled {
-  background: rgba(255, 255, 255, 0.3);
+  background: #5d5d5d;
   cursor: not-allowed;
   transform: none;
 }

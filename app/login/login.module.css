@@ -40,7 +40,7 @@
   max-height: 410px;
   border-radius: 40px;
   background: #ffffffb3;
-  box-shadow: 0 4px 30px rgb(128 128 128 / 40%)
+  box-shadow: 0 4px 30px rgb(128 128 128 / 40%);
 /*   border: 1px solid rgba(255, 255, 255, 0.3); */
   display: flex;
   flex-direction: column;
